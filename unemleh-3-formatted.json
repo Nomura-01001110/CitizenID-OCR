@@ -1,0 +1,84 @@
+{
+    "Fields": {
+        "Овог Family name": {
+            "mn": "Шавь",
+            "en": "Shavi",
+            "confidence_mn": 99.56,
+            "confidence_en": 99.66
+        },
+        "Эцэг/эх/-ийн нэр Surname": {
+            "mn": "Наваантогмид",
+            "en": "Navaantogmid",
+            "confidence_mn": 97.89,
+            "confidence_en": 99.36
+        },
+        "Нэр Given name": {
+            "mn": "БЯМБАЦОГТ",
+            "en": "BYAMBATSOGT",
+            "confidence_mn": 64.06,
+            "confidence_en": 98.96
+        },
+        "Хүйс Sex": {
+            "mn": "Эрэгтэй",
+            "en": "Male",
+            "confidence_mn": 96.81,
+            "confidence_en": 84.92
+        },
+        "Төрсөн он, сар, өдөр Date of birth": {
+            "year": "1995",
+            "month": "07",
+            "day": "29",
+            "confidence": 99.21
+        },
+        "Регистрийн дугаар Registration number": {
+            "mn": "H395072914",
+            "en": "NE95072914",
+            "confidence_mn": 97.04,
+            "confidence_en": 47.9
+        },
+        "Иргэний бүртгэлийн дугаар Civil identification number": {
+            "text": "null",
+            "confidence": 0
+        }
+    },
+    "LowConfidenceLines": [
+        {
+            "DetectedText": "БЯМБАЦОГТ",
+            "Confidence": 64.06
+        },
+        {
+            "DetectedText": "Тэрсен он, cap, едер",
+            "Confidence": 64.13
+        },
+        {
+            "DetectedText": "H395072914 NE95072914",
+            "Confidence": 72.47
+        }
+    ],
+    "LowConfidenceWords": [
+        {
+            "DetectedText": "БЯМБАЦОГТ",
+            "Confidence": 64.06
+        },
+        {
+            "DetectedText": "/Male",
+            "Confidence": 84.92
+        },
+        {
+            "DetectedText": "Тэрсен",
+            "Confidence": 42.84
+        },
+        {
+            "DetectedText": "он,",
+            "Confidence": 76.36
+        },
+        {
+            "DetectedText": "едер",
+            "Confidence": 42.28
+        },
+        {
+            "DetectedText": "NE95072914",
+            "Confidence": 47.9
+        }
+    ]
+}

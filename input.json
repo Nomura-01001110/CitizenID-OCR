@@ -1,0 +1,84 @@
+{
+    "Fields": {
+        "Овог Family name": {
+            "mn": "Шавь",
+            "en": "Shavi",
+            "confidence_mn": 99.4,
+            "confidence_en": 99.4
+        },
+        "Эцэг/эх/-ийн нэр Surname": {
+            "mn": "Наваантогмид",
+            "en": "Navaantogmid",
+            "confidence_mn": 97.46,
+            "confidence_en": 97.46
+        },
+        "Нэр Given name": {
+            "mn": "БЯМБАЦОГТ",
+            "en": "BYAMBATSOGT",
+            "confidence_mn": 99.74,
+            "confidence_en": 99.74
+        },
+        "Хүйс Sex": {
+            "mn": "Эрэгтэй",
+            "en": "Male",
+            "confidence_mn": 96.81,
+            "confidence_en": 84.92
+        },
+        "Төрсөн он, сар, өдөр Date of birth": {
+            "year": "1995",
+            "month": "07",
+            "day": "29",
+            "confidence": 99.21
+        },
+        "Регистрийн дугаар Registration number": {
+            "mn": "H395072914",
+            "en": "HAFANAFA",
+            "confidence_mn": 97.04,
+            "confidence_en": 47.9
+        },
+        "Иргэний бүртгэлийн дугаар Civil identification number": {
+            "text": "null",
+            "confidence": "null"
+        }
+    },
+    "LowConfidenceLines": [
+        {
+            "DetectedText": "БЯМБАЦОГТ",
+            "Confidence": 64.05718994140625
+        },
+        {
+            "DetectedText": "Тэрсен он, cap, едер",
+            "Confidence": 64.12529754638672
+        },
+        {
+            "DetectedText": "H395072914 NE95072914",
+            "Confidence": 72.46612548828125
+        }
+    ],
+    "LowConfidenceWords": [
+        {
+            "DetectedText": "БЯМБАЦОГТ",
+            "Confidence": 64.05718994140625
+        },
+        {
+            "DetectedText": "/Male",
+            "Confidence": 84.91670989990234
+        },
+        {
+            "DetectedText": "Тэрсен",
+            "Confidence": 42.842071533203125
+        },
+        {
+            "DetectedText": "он,",
+            "Confidence": 76.35671997070312
+        },
+        {
+            "DetectedText": "едер",
+            "Confidence": 42.27506637573242
+        },
+        {
+            "DetectedText": "NE95072914",
+            "Confidence": 47.895423889160156
+        }
+    ]
+}

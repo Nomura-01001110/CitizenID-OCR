@@ -1,0 +1,16 @@
+Things not done:
+1. Warn if field values have low confidence scores.
+
+2. Prompt user to take picture again (give a better picture) if picture quality is low.
+
+3. !!! MUST FIX !!!
+Check for cases when a bad word is read between two field values. For example, if the following case is true, then the program crashes because it can't distinguish between 'real' field values from text such as '|||||'. The difficulty of solving this lies in the fact that it's unknown how to discern between gibberish and real text - the variety of real text is too much. 
+
+{'DetectedText': Овог Family name}
+{'DetectedText': Гаридмагнай}
+{'DetectedText': ||||| }
+{'DetectedText': Garidmagnai}
+
+4. !!! MUST FIX !!!
+When registration number has no letters but only has numbers, the program crashes. For example, AWS Rekognition reads 'OO12345678' as '0012345678' with the first two letters being read as zeroes not the letter 'O'.
+
