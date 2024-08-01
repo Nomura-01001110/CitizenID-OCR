@@ -14,3 +14,17 @@ Check for cases when a bad word is read between two field values. For example, i
 4. !!! MUST FIX !!!
 When registration number has no letters but only has numbers, the program crashes. For example, AWS Rekognition reads 'OO12345678' as '0012345678' with the first two letters being read as zeroes not the letter 'O'.
 
+5. Packages used (or shown by Replit):
+Package         Version
+--------------- -----------
+boto3           1.34.145
+botocore        1.34.145
+jmespath        1.0.1
+langdetect      1.0.9
+Levenshtein     0.25.1
+python-dateutil 2.9.0.post0
+rapidfuzz       3.9.5
+s3transfer      0.10.2
+six             1.16.0
+transliterate   1.10.2
+urllib3         2.2.2
